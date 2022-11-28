@@ -3,7 +3,7 @@
  * Plugin Name:       GoWish plugin
  * Plugin URI:        https://gowish.com/
  * Description:       GoWish plugin for WordPress
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.4
  * Requires PHP:      8.0
  * Author:            GoWish
