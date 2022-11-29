@@ -5,7 +5,7 @@
  * Description:       GoWish plugin for WordPress
  * Version:           1.0.1
  * Requires at least: 5.4
- * Requires PHP:      8.0
+ * Requires PHP:      7.4
  * Author:            GoWish
  * Text Domain:       gowish
  * Domain Path:       /languages
