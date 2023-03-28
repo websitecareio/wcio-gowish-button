@@ -1,0 +1,330 @@
+.floating-lists.fl-ready {
+        visibility: visible;
+        z-index: 9999
+}
+
+.floating-lists {
+        font-family: Arial, Helvetica, sans-serif;
+        visibility: hidden;
+        z-index: 9999
+}
+
+.floating-lists.fl-ready ul {
+        top: 41vh;
+        right: 0;
+        position: fixed;
+        z-index: 10100
+}
+
+.floating-lists ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0
+}
+
+.fl-bar {
+        position: fixed;
+        z-index: 10100
+}
+
+.fl-bar.fl-button-space li:not(:last-child) {
+        margin-bottom: 2px
+}
+
+.fl-bar.fl-right li {
+        height: 40px
+}
+
+.fl-bar li {
+        list-style: none
+}
+
+.fl-bar.fl-right a {
+        position: absolute;
+        right: 0
+}
+
+.fl-bar a {
+        width: 40px;
+        display: block;
+        position: relative
+}
+
+.floating-lists a {
+        cursor: pointer;
+        text-decoration: none
+}
+
+.fl-item-1-1 .fl-icon,
+.fl-item-1-1 a:hover .fl-icon,
+.fl-item-1-1 .fl-label {
+        color: #009bbf;
+        font-weight: bold;
+        height: 40px;
+        line-height: 40px
+}
+
+.fl-right .fl-icon {
+        position: absolute;
+        right: 0
+}
+
+.fl-icon,
+.fl-label {
+        line-height: 40px
+}
+
+.fl-icon {
+        font-size: 24px;
+        -webkit-transition: background-color 100ms linear;
+        transition: background-color 100ms linear;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        z-index: 11;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-size: 24px
+}
+
+.fl-right.fl-connected .fl-label {
+        max-width: 0;
+        display: block;
+        transition: all 0.5s;
+        padding: 0 11px 0 11px;
+        right: 2px;
+        left: auto
+}
+
+.fl-item-1-3 .fl-icon,
+.fl-item-1-3 a:hover .fl-icon,
+.fl-item-1-3 .fl-label {
+        color: #128be0;
+        background-color: #fff
+}
+
+.fl-label,
+.fl-label-space .fl-hit,
+.fl-sub.fl-side>ul {
+        left: 48px
+}
+
+.fl-label {
+        font-size: 15px
+}
+
+.fl-icon,
+.fl-label {
+        line-height: 40px
+}
+
+.fl-label {
+        font-size: 15px;
+        line-height: 42px;
+        padding: 0 11px 0 8px;
+        position: absolute;
+        left: 42px;
+        top: 0;
+        z-index: 10;
+        display: none;
+        box-sizing: border-box;
+        white-space: nowrap
+}
+
+.floating-lists li:hover .fl-label {
+        opacity: 1;
+        max-width: 250px;
+        margin-right: 16px;
+        background: #fff;
+        border-radius: 12px
+}
+
+.floating-lists li:hover .fl-label {
+        opacity: 1;
+        max-width: 250px;
+        padding-right: 40px;
+        margin-right: 16px
+}
+
+.fl-right.fl-connected .fl-label {
+        max-width: 0;
+        display: block;
+        transition: all 0.5s
+}
+
+.fl-right.fl-connected .fl-label {
+        padding: 0 11px 0 11px
+}
+
+.fl-right.fl-connected .fl-label {
+        right: 2px;
+        left: auto
+}
+                    .floating-lists.fl-ready {
+                        visibility: visible;
+                        z-index: 9999;
+                    }
+
+                    .floating-lists {
+                        font-family: Arial, Helvetica, sans-serif;
+                        visibility: hidden;
+                        z-index: 9999;
+                    }
+
+                    .floating-lists.fl-ready ul {
+                        top: 40vh;
+                        right: 0;
+                        position: fixed;
+                        z-index: 10100;
+                    }
+
+                    .floating-lists ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    .fl-bar {
+                        position: fixed;
+                        z-index: 10100;
+                    }
+
+                    .fl-bar.fl-button-space li:not(:last-child) {
+                        margin-bottom: 2px;
+                    }
+
+                    .fl-bar.fl-right li {
+                        height: 40px;
+                    }
+
+                    .fl-bar li {
+                        list-style: none;
+                    }
+
+                    .fl-bar.fl-right a {
+                        position: absolute;
+                        right: 0;
+                    }
+
+                    .fl-bar a {
+                        width: 40px;
+                        display: block;
+                        position: relative;
+                    }
+
+                    .floating-lists a {
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+
+                    .fl-item-1-1 .fl-icon,
+                    .fl-item-1-1 a:hover .fl-icon,
+                    .fl-item-1-1 .fl-label {
+                        color: #009bbf;
+
+                        height: 40px;
+                        line-height: 40px;
+                    }
+
+                    .fl-right .fl-icon {
+                        position: absolute;
+                        right: 0;
+                    }
+
+                    .fl-icon,
+                    .fl-label {
+                        line-height: 40px;
+                    }
+
+                    .fl-icon {
+                        font-size: 24px;
+                        -webkit-transition: background-color 100ms linear;
+                        transition: background-color 100ms linear;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        position: relative;
+                        z-index: 11;
+                        display: inline-block;
+                        vertical-align: middle;
+                        text-align: center;
+                        background-repeat: no-repeat;
+                        font-size: 24px;
+                    }
+
+                    .fl-right.fl-connected .fl-label {
+                        max-width: 0;
+                        display: block;
+                        transition: all 0.5s;
+                        padding: 0 11px 0 11px;
+                        right: 2px;
+                        left: auto;
+                    }
+
+                    .fl-item-1-3 .fl-icon,
+                    .fl-item-1-3 a:hover .fl-icon,
+                    .fl-item-1-3 .fl-label {
+                        color: #128be0;
+                        background-color: #fff;
+                    }
+
+                    .fl-label,
+                    .fl-label-space .fl-hit,
+                    .fl-sub.fl-side>ul {
+                        left: 48px;
+                    }
+
+                    .fl-label {
+                        font-size: 15px;
+                    }
+
+                    .fl-icon,
+                    .fl-label {
+                        line-height: 40px;
+                    }
+
+                    .fl-label {
+                        font-size: 15px;
+                        line-height: 42px;
+                        padding: 0 11px 0 8px;
+                        position: absolute;
+                        left: 42px;
+                        top: 0;
+                        z-index: 10;
+                        display: none;
+                        box-sizing: border-box;
+                        white-space: nowrap;
+                    }
+
+                    .floating-lists li:hover .fl-label {
+                        opacity: 1;
+                        max-width: 250px;
+                        margin-right: 16px;
+                        background: #fff;
+                        border-radius: 12px;
+                    }
+
+                    .floating-lists li:hover .fl-label {
+                        opacity: 1;
+                        max-width: 250px;
+                        padding-right: 40px;
+                        margin-right: 16px;
+                    }
+
+                    .fl-right.fl-connected .fl-label {
+                        max-width: 0;
+                        display: block;
+                        transition: all 0.5s;
+                    }
+
+                    .fl-right.fl-connected .fl-label {
+                        padding: 0 11px 0 11px;
+                    }
+
+                    .fl-right.fl-connected .fl-label {
+                        right: 2px;
+                        left: auto;
+                    }
