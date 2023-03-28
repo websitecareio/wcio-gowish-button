@@ -148,6 +148,7 @@ if (!class_exists('gowish')) {
                     // Generate the necessary fields for the settings form
                     settings_fields('gowish_option_group');
                     do_settings_sections('gowish-admin-page');
+                    wp_nonce_field('gowish_nonce_action', 'gowish_nonce_field');
                     submit_button();
                     ?>
                 </form>
@@ -221,8 +222,16 @@ if (!class_exists('gowish')) {
         }
 
         // This function sanitizes the user input from the plugin's settings form before saving it to the database
+        // In gowish_sanitize(), verify the nonce field
         public function gowish_sanitize($input)
         {
+
+            // Check if nonce is set and verify
+            if (!isset($_POST['gowish_nonce_field']) || !wp_verify_nonce($_POST['gowish_nonce_field'], 'gowish_nonce_action')) {
+                return $this->gowish_options;
+            }
+
+
             $sanitary_values = array();
 
             // Check if 'custom_hook' is set, and store its value in the $sanitary_values array
